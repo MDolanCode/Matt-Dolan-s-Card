@@ -12,7 +12,10 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.09, green: 0.63, blue: 0.52, opacity: 1.00)
                 .edgesIgnoringSafeArea(.all)
-            Text("Hello, world!")
+            Text("Matthew Dolan")
+                .font(Font.custom("RobotoMono-VariableFont_wght", size: 40))
+                .bold()
+                .foregroundColor(.white)
                 .padding()
         }
     }

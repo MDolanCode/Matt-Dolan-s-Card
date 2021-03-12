@@ -11,6 +11,7 @@
 		C94933E925FC100F00564580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94933E825FC100F00564580 /* ContentView.swift */; };
 		C94933EB25FC101300564580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94933EA25FC101300564580 /* Assets.xcassets */; };
 		C94933EE25FC101300564580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94933ED25FC101300564580 /* Preview Assets.xcassets */; };
+		C94933F825FC162200564580 /* RobotoMono-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C94933F725FC162200564580 /* RobotoMono-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C94933EA25FC101300564580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C94933ED25FC101300564580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C94933EF25FC101300564580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94933F725FC162200564580 /* RobotoMono-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				C94933E625FC100F00564580 /* Matt_Dolan_s_CardApp.swift */,
 				C94933E825FC100F00564580 /* ContentView.swift */,
 				C94933EA25FC101300564580 /* Assets.xcassets */,
+				C94933F625FC15AF00564580 /* Fonts */,
 				C94933EF25FC101300564580 /* Info.plist */,
 				C94933EC25FC101300564580 /* Preview Content */,
 			);
@@ -67,6 +70,14 @@
 				C94933ED25FC101300564580 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C94933F625FC15AF00564580 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C94933F725FC162200564580 /* RobotoMono-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			files = (
 				C94933EE25FC101300564580 /* Preview Assets.xcassets in Resources */,
 				C94933EB25FC101300564580 /* Assets.xcassets in Resources */,
+				C94933F825FC162200564580 /* RobotoMono-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
