@@ -36,7 +36,6 @@ struct ContentView: View {
                         InfoView(text: "+1-778-322-8135", imageName: "phone.fill")
                         InfoView(text: "mdolancode@gmail.com", imageName: "envelope.fill")
                     }
-                    
                 }
             }
         }
