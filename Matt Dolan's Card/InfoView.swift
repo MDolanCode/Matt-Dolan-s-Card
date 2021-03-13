@@ -15,11 +15,12 @@ struct InfoView: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
             .fill(Color.white)
-            .frame(width: 400, height: 50, alignment: .center)
+            .frame(width: 300, height: 50, alignment: .center)
             .overlay(HStack {
                 Image(systemName: imageName)
                     .foregroundColor(Color(red: 0.09, green: 0.63, blue: 0.52, opacity: 1.00))
                 Text(text)
+                    .foregroundColor(Color("Info Color"))
             })
             .padding(.all)
     }
