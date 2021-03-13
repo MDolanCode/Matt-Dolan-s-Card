@@ -12,6 +12,7 @@
 		C94933EB25FC101300564580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94933EA25FC101300564580 /* Assets.xcassets */; };
 		C94933EE25FC101300564580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94933ED25FC101300564580 /* Preview Assets.xcassets */; };
 		C94933F825FC162200564580 /* RobotoMono-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C94933F725FC162200564580 /* RobotoMono-VariableFont_wght.ttf */; };
+		C98A04DC25FC5E0D00649B12 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A04DB25FC5E0D00649B12 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C94933ED25FC101300564580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C94933EF25FC101300564580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C94933F725FC162200564580 /* RobotoMono-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C98A04DB25FC5E0D00649B12 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C94933E625FC100F00564580 /* Matt_Dolan_s_CardApp.swift */,
 				C94933E825FC100F00564580 /* ContentView.swift */,
+				C98A04DB25FC5E0D00649B12 /* InfoView.swift */,
 				C94933EA25FC101300564580 /* Assets.xcassets */,
 				C94933F625FC15AF00564580 /* Fonts */,
 				C94933EF25FC101300564580 /* Info.plist */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94933E925FC100F00564580 /* ContentView.swift in Sources */,
+				C98A04DC25FC5E0D00649B12 /* InfoView.swift in Sources */,
 				C94933E725FC100F00564580 /* Matt_Dolan_s_CardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
