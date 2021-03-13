@@ -25,13 +25,19 @@ struct ContentView: View {
                     .font(Font.custom("RobotoMono-VariableFont_wght", size: 40))
                     .bold()
                     .foregroundColor(.white)
+                
                 Text("iOS Engineer")
-                    .foregroundColor(.white)
                     .font(.system(size: 25))
+                    .foregroundColor(.white)
                 Divider()
                 
-
-                
+                ZStack {
+                    VStack {
+                        InfoView(text: "+1-778-322-8135", imageName: "phone.fill")
+                        InfoView(text: "mdolancode@gmail.com", imageName: "envelope.fill")
+                    }
+                    
+                }
             }
         }
     }
